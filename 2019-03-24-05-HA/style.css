@@ -1,0 +1,164 @@
+body {
+    background-color: azure;
+}
+
+.wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#col_left {
+    width: 40%;
+    float: left;
+    background-color: antiquewhite;
+}
+
+#col_right {
+    width: 60%;
+    float: left;
+    background-color: cornsilk;
+}
+
+.upper_case {
+    text-transform: uppercase;
+}
+
+.head {
+    text-align: center;
+
+}
+
+
+
+.first_name, .last_name {
+    font-size: 60px;
+}
+
+.last_name, .position {
+    font-weight: bold;
+}
+
+.position {
+    font-size: 30px;
+}
+
+.head img {
+    border-radius: 50%;
+    /* display: block;
+    margin: 0 auto; */
+    width: 200px;
+    height: 200px;
+}
+
+.section {
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section_content {
+    clear: both;
+}
+
+.section_img {
+    
+    width: 50px;
+    float: left;
+}
+
+.section_title {
+    color: #3F6FB6;
+    font-size: 40px;
+    float: left;
+    margin: 0 auto ;
+    padding-left: 20px;
+    line-height: normal;
+    width: 30%;
+}
+
+.horizontal_line {
+    padding-top: 20px;
+    float: left;
+    width: 50%;
+    border-bottom: solid #3F6FB6 3px;
+}
+
+.p_section_content {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    clear: both;
+    font-size: 20px;
+}
+
+.contact_left_col {
+    float: left;
+    width: 35%;
+    clear: both;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #4C77B6;
+    padding-left: 20px;
+}
+
+.contact_right_col {
+    float: left;
+    width: 60%;
+    font-size: 18px;
+}
+
+.skills_content, .software_content {
+    clear: both;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.skills_content {
+    text-align: center;
+}
+
+.blue_asterix {
+    color: #3F6FB6;
+}
+
+.grey_asterix {
+    color: #E6E6E6;
+}
+
+.education_content, .experience_content {
+    clear: both;
+}
+
+.edu_right_col , .edu_left_col, .uni_name {
+    font-size: 30px;
+}
+
+.edu_left_col {
+    color: #4C77B6;
+    font-weight: bolder;
+    float: left;
+    width: 35%;
+}
+
+.uni_name {
+
+}
+
+.experience_content .edu_left_col {
+    color: black;
+}
+
+.soft_left, .soft_right {
+    width: 50%;
+    float: left;
+}
+
+.soft_left {
+    padding-left: 20px;
+    width: 30%;
+}
+
+
+
+
+

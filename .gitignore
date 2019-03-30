@@ -1,0 +1,17 @@
+.idea/
+*.iml
+target/
+dist/
+build/
+exploded/
+*.class
+.settings/
+.project
+.classpath
+.gradle/
+.git/
+
+book_examples/javaee/pro-jpa-2-in-java-ee-8-master/database/
+book_examples/javaee/pro-jpa-2-in-java-ee-8-master/examples/lib
+
+book_examples/javaee/jwsur2-master/**/*.war

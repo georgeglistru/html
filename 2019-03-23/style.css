@@ -1,0 +1,87 @@
+body {
+    background-color: green;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: red;
+}
+
+.item {
+
+}
+
+#header {
+    background-color: aquamarine;
+    
+    text-align: center;
+    content: "header content from css";
+}
+
+#footer {
+    background-color: chartreuse;
+}
+
+#welcome {
+    width: 80%;
+    background-color: darkgreen;
+    float: left;
+}
+
+#cart-div {
+    width: 5%;
+    background-color: darkblue;
+    float: left;
+}
+
+#cart-img {
+    height: 40px;
+}
+
+#phones {
+    border: red solid 2px;
+}
+
+ul li:nth-child(1) {
+    color: blue;
+}
+
+ul li:nth-child(odd) {
+    font-size: 20px;
+}
+
+ul li:nth-child(even) {
+    font-size: 40px;
+}
+
+ul li:nth-child(3n+2) {
+    background-color: blueviolet;
+}
+
+ol li:first-child {
+    color: burlywood;
+}
+
+#block {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#block:hover {
+    background-color: yellowgreen;
+}
+
+#block:before {
+    content: "before content";
+}
+
+#block:after {
+    content: "after content";
+}
+
+

@@ -1,0 +1,71 @@
+body {
+    background-color: green;
+    padding-top: 20px;
+    height: 2000px;
+}
+
+#block_relative {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 10px;
+}
+
+#block_relative2 {
+    position: relative;
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#block2 {
+    background-color: blue;  
+    height: 50px;
+}
+
+#block_absolute {
+position: absolute;
+background-color: red;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+
+}
+
+#block_absolute2 {
+    position: absolute;
+    background-color: greenyellow;
+        /* top: 0;
+        left: 0; */
+        right: 0;
+        bottom: 0;
+        height: 200px;
+        width: 200px;
+    
+    }
+
+#block_fixed {
+    position: fixed;
+    background-color: yellow;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 20px;
+        width: 100%;
+    
+    }
+
+body {
+    
+}
+
+
+
+
