@@ -73,23 +73,30 @@ body {
     margin: 0 auto ;
     padding-left: 20px;
     line-height: normal;
+
+}
+
+#col_left .section_title {
     width: 130px;
 }
 
+#col_right .section_title {
+    width: 180px;
+}
 
 
 .horizontal_line {
-    padding-top: 20px;
+    padding-top: 12px;
     float: left;
     border-bottom: solid #3F6FB6 3px;
 }
 
 #col_right .horizontal_line {
-    width: 250px;
+    width: 330px;
 }
 
 #col_left .horizontal_line {
-    width: 125px;
+    width: 165px;
     padding-left: 10px;
 }
 
