@@ -44,6 +44,8 @@ body {
 
 .head img {
     border-radius: 50%;
+    border: blue solid 2px;
+    padding: 2px;
     /* display: block;
     margin: 0 auto; */
     width: 200px;

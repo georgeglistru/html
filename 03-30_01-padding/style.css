@@ -1,0 +1,23 @@
+.my {
+    background-color: red;
+    color: black;
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue;
+
+    /*padding-top: 40px;*/
+    /*padding-left: 50px;*/
+    /*padding-right: 5px;*/
+
+    padding: 10px 120px; /*vertical horiz*/
+    padding: 10px 20px 30px;/*top horiz bottom*/
+    padding: 10px 20px 30px 40px;/*top right bottom left*/
+}
+
+.my-margin {
+    /*margin-top: 50px;*/
+
+    /*margin: 50px auto 10px;*/
+    background-color: green;
+    margin: -50px auto;
+}

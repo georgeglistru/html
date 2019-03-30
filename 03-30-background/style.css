@@ -1,0 +1,17 @@
+body {
+    background-image: url("png-2757379_640.png");
+
+    /*height: 100vh;*/
+    /*background-size: cover;*/
+    /*background-size: contain;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 400px 400px;*/
+    /*background-position: right top;*/
+    /*background-size: cover;*/
+    /*background-size: cover;*/
+    /*background-size: cover;*/
+
+    height: 2000px;
+    /*background-size: cover;*/
+    background-attachment: scroll;
+}
