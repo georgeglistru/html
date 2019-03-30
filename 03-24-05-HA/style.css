@@ -8,13 +8,13 @@ body {
 }
 
 #col_left {
-    width: 40%;
+    width: 400px;
     float: left;
     background-color: antiquewhite;
 }
 
 #col_right {
-    width: 60%;
+    width: 600px;
     float: left;
     background-color: cornsilk;
 }
@@ -31,7 +31,7 @@ body {
 
 
 .first_name, .last_name {
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .last_name, .position {
@@ -68,27 +68,38 @@ body {
 
 .section_title {
     color: #3F6FB6;
-    font-size: 40px;
+    font-size: 25px;
     float: left;
     margin: 0 auto ;
     padding-left: 20px;
     line-height: normal;
-    width: 30%;
+    width: 130px;
 }
+
+
 
 .horizontal_line {
     padding-top: 20px;
     float: left;
-    width: 50%;
     border-bottom: solid #3F6FB6 3px;
 }
+
+#col_right .horizontal_line {
+    width: 250px;
+}
+
+#col_left .horizontal_line {
+    width: 125px;
+    padding-left: 10px;
+}
+
 
 .p_section_content {
     padding-left: 20px;
     padding-right: 20px;
     text-align: justify;
     clear: both;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .contact_left_col {
@@ -130,7 +141,7 @@ body {
 }
 
 .edu_right_col , .edu_left_col, .uni_name {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .edu_left_col {
@@ -149,15 +160,17 @@ body {
 }
 
 .soft_left, .soft_right {
-    width: 50%;
     float: left;
 }
 
 .soft_left {
     padding-left: 20px;
-    width: 30%;
+    width: 190px;
 }
 
+.soft_right {
+    width: 240px;
+}
 
 
 
