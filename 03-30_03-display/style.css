@@ -1,0 +1,21 @@
+.div {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.class_inline {
+    background-color: blue;
+    display: inline;
+
+    width: 100px;
+    height: 100px;
+}
+
+.class_inline_block {
+    background-color: green;
+    display: inline-block;
+
+    width: 100px;
+    height: 100px;
+}
