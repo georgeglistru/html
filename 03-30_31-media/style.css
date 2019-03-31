@@ -1,0 +1,50 @@
+.c1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-bottom: 50px;
+}
+
+.c2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.d1 {
+    display: inline-block;
+    width: 100px;
+    margin-right: 40px;
+    height: 100px;
+    background-color: magenta;
+}
+
+body{
+    background-image: url("about.svg");
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: none;
+        background-color: #3F6FB6;
+    }
+
+    .c1 {
+        background-color: blue;
+    }
+
+    .c2 {
+        background-color: red;
+    }
+
+    .d1 {
+        width: 90%;
+    }
+}
+
+/*@media only screen and (orientation: landscape) {*/
+    /*body {*/
+        /*background-image: none;*/
+        /*background-color: green;*/
+    /*}*/
+/*}*/
