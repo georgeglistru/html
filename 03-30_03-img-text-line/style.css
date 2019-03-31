@@ -1,0 +1,54 @@
+body{
+    background-color: chartreuse;
+}
+
+.wrap {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #3F6FB6;
+}
+
+#cont_left {
+    float: left;
+    width: 300px;
+    background-color: #E6E6E6;
+}
+
+#cont_right {
+    float: left;
+    width: 600px;
+    background-color: cornsilk;
+}
+
+.section {
+    position: relative;
+}
+
+.section_head {
+
+}
+
+.section_head img {
+    width: 100px;
+    height: 100px;
+}
+
+.absolute0 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.section_head div {
+    padding-left: 110px;
+    color: blue;
+    font-size: 20px;
+    margin: auto;
+}
+
+
+
+
+
