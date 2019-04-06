@@ -1,0 +1,14 @@
+
+
+ svg:hover .eye {
+    fill: green;
+    stroke: magenta;
+}
+
+ svg:hover .chelka {
+     fill: red;
+     stroke: magenta;
+     display: none;
+ }
+ 
+ 

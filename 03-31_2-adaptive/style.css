@@ -1,0 +1,28 @@
+.side_bar, .content {
+    height: 400px;
+    float: right;
+}
+
+.side_bar {
+    width: 20%;
+    background-color: magenta;
+}
+
+.content {
+    width: 80%;
+    background-color: blue;
+}
+
+@media (max-width: 768px) {
+    .side_bar, .content {
+        float: none;
+    }
+
+    .side_bar {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+}
