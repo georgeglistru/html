@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        My super shop
+    </title>
+    <link href="style.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width; initial-scale=1"/>
+</head>
+
+<body>
+    <form action="http://localhost:8080/rest" method="post">
+        <label for="password">Password</label>
+        <input id="password" placeholder="enter placeholder" type="password" name="password"/>
+        <br />
+
+        <label for="valid">Is valid</label>
+        <input id="valid" type="checkbox" name="valid"/>
+        <br />
+
+        <label for="tel">Tel</label>
+        <input id="tel" type="tel" name="valid"/>
+        <br />
+
+        <label>Sex</label>
+        <br>
+
+        <label for="male">Male</label>
+        <input id="male" type="radio" name="sex"/>
+
+        <label for="female">Female</label>
+        <input id="female"  type="radio" name="sex"/>
+
+        <label for="unknown">Unknown</label>
+        <input id="unknown" type="radio" name="sex"/>
+        <br />
+
+        <label for="Subject">Subject</label>
+        <select id="Subject" name="Subject">
+            <option value="math">Math3</option>
+            <option label="Phys2" value="Phys">Phys3</option>
+            <option label="It" value="it" />
+        </select>
+        <br />
+
+        <label for="age">age</label>
+        <input id="age" type="number" name="age"/>
+        <br />
+
+        <input type="submit" value="ok" />
+
+        <button type="reset">
+            Reset
+        </button>
+
+
+    </form>
+</body>
