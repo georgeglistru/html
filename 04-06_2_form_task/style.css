@@ -1,0 +1,24 @@
+form {
+    width: 490px;
+    margin: 0 auto;
+}
+
+div {
+    background-color: greenyellow;
+    height: 50px;
+}
+
+input {
+    display: inline-block;
+    float: left;
+    width: 200px;
+    margin: 20px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    height: 30px;
+    outline: none;
+}
+
+.title {
+    text-align: center;
+}
