@@ -1,0 +1,21 @@
+div {
+    width: 200px;
+    height: 40px;
+}
+
+div.c1 {
+    background-color: red;
+    /*transform: scaleX(2);*/
+}
+
+div.c2 {
+    background-color: blue;
+    /*transform: rotate(45deg) scale(2);*/
+}
+
+div.c3 {
+    background-color: green;
+    transform: translate(200px, -60px);
+}
+
+

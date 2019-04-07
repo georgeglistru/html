@@ -1,0 +1,81 @@
+div {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+div.c1 {
+    background-color: red;
+    top: 0;
+    transition: top 0.5s linear 0.5s;
+}
+
+div.c1:hover {
+    background-color: green;
+    top: 20px;
+
+}
+
+/*animation*/
+
+@keyframes step {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 100px;
+        top: 100px
+    }
+
+    50% {
+        left: 200px;
+        top: 50px
+    }
+
+    100% {
+        left: 400px;
+        top: 100px;
+    }
+}
+
+@keyframes step2 {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 100px;
+        top: 0px
+    }
+
+    50% {
+        left: 200px;
+        top: 50px
+    }
+
+    100% {
+        left: 400px;
+        top: 0px;
+    }
+}
+
+
+.animate {
+    /*background-color: magenta;*/
+    animation: step 2s ease 1s infinite alternate;
+    background-image: url("cat.png");
+    background-size: 100%;
+}
+
+.animate2 {
+    background-color: blue;
+    animation: step2 2s ease 1s infinite alternate;
+}
+
+div:hover {
+    /*animation:  none;*/
+    animation-play-state: paused;
+}
