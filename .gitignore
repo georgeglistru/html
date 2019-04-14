@@ -11,6 +11,8 @@ exploded/
 .gradle/
 .git/
 
+node_modules/
+
 book_examples/javaee/pro-jpa-2-in-java-ee-8-master/database/
 book_examples/javaee/pro-jpa-2-in-java-ee-8-master/examples/lib
 
