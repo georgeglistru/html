@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+}
+
+div:not(.container) {
+    background-color: magenta;
+    margin: 5px;
+}
+
+.r1c1 {
+    width: 200px;
+    height: 40px;
+}
+
+.r1c2 {
+    width: 700px;
+    height: 40px;
+}

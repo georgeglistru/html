@@ -1,0 +1,55 @@
+.upper_case {
+    text-transform: uppercase;
+}
+
+body {
+    font-size: medium;
+}
+
+.wrap {
+    margin: 0 auto;
+    background-color: #E6E6E6;
+}
+
+.head__logo_img {
+    width: 40px;
+}
+
+.head__logo, .head__menu, .head__menu_item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.head__menu {
+    margin: 0px;
+}
+
+.head__menu_item {
+    margin: 5px 20px;
+    padding: 5px 15px;
+}
+
+.head__menu_item--active {
+    background-color: orange;
+}
+
+.boostup {
+    background-color: #709dca;
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+.boostup__title {
+    text-align: center;
+    text-transform: uppercase;
+
+    font-size: 2em;
+}
+
+.boostup__sub-title {
+    font-size: 0.8em;
+}
+
+
+

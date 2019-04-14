@@ -1,0 +1,71 @@
+/*animation*/
+
+@keyframes my-step {
+    0% {
+        left: 0px;
+        top: 0px;
+        background-color: magenta;
+    }
+
+    25% {
+        left: 100px;
+        top: 100px;
+    }
+
+    50% {
+        left: 200px;
+        top: 50px;
+    }
+
+    75% {
+        background-color: green;
+    }
+
+    100% {
+        left: 400px;
+        top: 100px;
+        background-color: black;
+    }
+}
+
+@keyframes my-step2 {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 100px;
+        top: 200px;
+    }
+
+    50% {
+        left: 200px;
+        top: 100px;
+    }
+
+    100% {
+        left: 400px;
+        top: 100px;
+    }
+}
+
+div {
+    position: relative;
+    width:  20px;
+    height: 20px;
+}
+
+.c1 {
+    background-color: magenta;
+    animation: my-step 2s ease-in 0.3s infinite alternate    ;
+}
+
+.c1:hover, .c2:hover {
+    animation-play-state: paused;
+}
+
+.c2 {
+    background-color: green;
+    animation: my-step2 2s ease-in 0.3s infinite alternate    ;
+}

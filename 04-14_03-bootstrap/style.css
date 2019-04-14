@@ -1,0 +1,14 @@
+.container {
+    height: 200px;
+    width: 100px;
+    background-color: magenta;
+    box-shadow: 0 0 10px 5px #000;
+
+    transform: rotate(50deg);
+    -moz-transform: rotate(90deg);
+
+    -moz-background-color: green;
+}
+
+
+
