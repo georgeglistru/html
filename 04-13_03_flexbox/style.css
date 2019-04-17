@@ -1,0 +1,67 @@
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.row-container {
+    display: flex;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: solid 2px black;
+}
+
+.r1c1, .r1c2, .r2c1, .r2c3 {
+    background-color: mediumseagreen;
+}
+
+.r1c3, .r2c2 {
+    background-color: grey;
+    height: 100px;
+}
+
+.r1c2, .r2c1, .r2c3 {
+    display: flex;
+}
+
+.cell2-content, .cell4-content, .cell6-content {
+    background-color: orange;
+}
+
+.r1c2 {
+    justify-content: center;
+    align-items: center;
+}
+
+.cell2-content {
+    height: 80px;
+    width: 30%;
+}
+
+.r2c1 {
+    align-items: flex-end;
+}
+
+.cell4-content {
+    height: 50px;
+    width: 100%;
+}
+
+.r2c3 {
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.cell6-content {
+    height: 70px;
+    width: 50%;
+}
+
+
+
