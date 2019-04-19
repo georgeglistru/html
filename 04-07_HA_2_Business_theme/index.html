@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
+    <link rel="stylesheet" href="common.css"/>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
@@ -36,9 +37,38 @@
 
             <form class="boostup-form">
 
-                <input name="full-name" class="boostup-form__name" />
+                <input name="full-name" placeholder="Full Name" class="boostup-form__name boostup-control boostup-input" />
+                <input name="email" placeholder="Email Address" class="boostup-form__email boostup-control boostup-input" />
+                <input name="phone" placeholder="Phone Number" class="boostup-form__phone boostup-control boostup-input" />
+                <button class="boostup-control boostup-button">Request a quote</button>
             </form>
+
+            <img id="laptop" src="img/laptop-png-6777.png">
         </div>
+
+        <div class="Circles">
+            <svg class="Circles__img">
+                <circle class="Circles__item Circles__item--active" />
+            </svg>
+            <svg class="Circles__img">
+                <circle class="Circles__item"  />
+            </svg>
+            <svg class="Circles__img">
+                <circle class="Circles__item" />
+            </svg>
+        </div>
+
+        <section class="Our-services">
+            <header class="Our-services-head">
+                <div class="Our-services-head-1 upper_case">
+                    our services
+                </div>
+                <div class="Our-services-head-2 color-grey">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+            </header>
+        </section>
+
 
     </div>
 </body>

@@ -1,0 +1,17 @@
+.upper_case {
+    text-transform: uppercase;
+}
+
+body {
+    font-size: medium;
+    box-sizing: border-box;
+}
+
+.wrap {
+    margin: 0 auto;
+    background-color: #E6E6E6;
+}
+
+.color-grey {
+    color: grey;
+}
