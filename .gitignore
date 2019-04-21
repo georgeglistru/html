@@ -10,6 +10,7 @@ exploded/
 .classpath
 .gradle/
 .git/
+package-lock.json
 
 node_modules/
 
