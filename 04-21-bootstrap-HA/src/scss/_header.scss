@@ -6,14 +6,27 @@
 }
 
 .Header__Logo-img {
-  width: 100px;
+  width: 70px;
 }
 
 .Header-Wrap {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
 .Header-right-img {
-  width: 20px;
+  width: 10px;
+}
+
+.Header__Links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 0.7em;
+
+  a {
+    color: white;
+    padding-right: 10px;
+    text-decoration: none;
+  }
 }
