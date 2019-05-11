@@ -1,9 +1,79 @@
 .Head {
   background-image: url("../img/head-background.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 1000px;
   width: 100%;
+  color: white;
+
+
+
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+.Head__Head {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.Head__Logo {
+  width: 20%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Head__Links {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 50px;
+
+}
+
+.Head__Link {
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
+}
+
+.Head__Link--active {
+  border: solid 1px white;
+  border-radius: 10px;
+}
+
+.Head__Links {
+  :link, :visited, :hover, :active {
+    color: white;
+  }
+}
+
+.Head__Content {
+  width: 60%;
+  margin: 0 auto;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Head__Head1 {
+  padding: 20px 0;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.Head__Head2 {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.Head__More {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
