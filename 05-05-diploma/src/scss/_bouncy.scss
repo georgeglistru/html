@@ -1,0 +1,27 @@
+.Bouncy {
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+}
+
+$w1: 60%;
+
+.Bouncy__Column1 {
+  width: $w1;
+}
+
+.Bouncy__Column2 {
+  width: 100% - $w1;
+}
+
+.Bouncy__Head {
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.Bouncy__More {
+  background-color: transparent;
+  border-radius: 10px;
+}
+

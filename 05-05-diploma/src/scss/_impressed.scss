@@ -1,0 +1,46 @@
+.impressed-wrap {
+  background-image: url("../img/impressed-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  color: white;
+}
+
+.impressed-left {
+  width: 50%;
+}
+
+
+
+.impressed-content {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+}
+
+.impressed-right {
+  width: 50%;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.laptop-container {
+  width: 80%;
+}
+
+.impressed-title {
+  padding: 20px 0;
+}
+
+.impressed-name {
+  font-weight: bold;
+}
+
+.bouncy-laptop {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  position: relative;
+  top: -70px;
+}

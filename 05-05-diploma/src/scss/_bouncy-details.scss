@@ -1,0 +1,65 @@
+.Bouncy-Details-wrap {
+  background-color: #f3f3f3;
+}
+
+.Bouncy-Details {
+
+  width: 85%;
+  margin: 40px auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Bouncy-Details__Head1 {
+  padding: 20px 0;
+}
+
+.Bouncy-Details__Head2 {
+
+}
+
+.Bouncy-Details__Head2-wrap {
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.Bouncy-Details__Images {
+  padding: 20px 0;
+  img {
+    padding: 0 10px;
+  }
+}
+
+.Bouncy-Details__Content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.Bouncy-Details__Content-Head {
+  width: 100%;
+  padding: 20px 0;
+  font-size: 1.2em;
+}
+
+.Bouncy-Details__Content-Left,
+.Bouncy-Details__Content-Right {
+  padding: 20px 70px 50px 0;
+}
+
+.Bouncy-Details__Content-Left {
+  width: 40%;
+
+}
+
+.Bouncy-Details__Content-Right {
+  width: 60%;
+}
+
+
+
+
+
