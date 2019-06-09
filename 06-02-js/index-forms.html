@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        My super shop
+    </title>
+
+    <!--<link href="style.css" rel="stylesheet"/>-->
+    <meta name="viewport" content="width=device-width; initial-scale=1"/>
+    <meta charset="utf-8">
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+    <form action="google.com" id="form1" name="f1" onsubmit="return false;">
+        <input name="name1">
+        <input name="sex" type="checkbox" checked>
+        <select name="numbers">
+            <option value="12" label="13">12</option>
+            <option value="13" label="14">15</option>
+            <option value="14" label="16">18</option>
+        </select>
+
+        <button type="submit">Click</button>
+    </form>
+    <form id="form2" name="f2"></form>
+
+    <script>
+        console.log(document.forms.f1.elements.name1);
+        console.log(document.forms.f1.elements.sex.checked);
+        console.log(document.forms.f1.elements.sex.value);
+
+        var select = document.forms.f1.elements.numbers;
+
+        console.log(select.selectedIndex);
+        select.selectedIndex = 2;
+
+        document.forms.f1.elements.sex.checked = 1;
+
+        var option = new Option('text1', 'text2', true);
+        select.appendChild(option);
+
+        var option2 = new Option('text3', 'text4', true);
+        select.prepend(option2);
+
+        var option3 = new Option('text5', 'text6', true);
+        document.insertBefore(select.querySelector('[value="14"]'), option3);
+
+    </script>
+
+
+</body>
+
+

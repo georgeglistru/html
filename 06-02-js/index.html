@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        My super shop
+    </title>
+
+    <!--<link href="style.css" rel="stylesheet"/>-->
+    <meta name="viewport" content="width=device-width; initial-scale=1"/>
+    <meta charset="utf-8">
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+    <button id="btn">
+        send
+    </button>
+
+    <ul id="menu" class="invisible">
+        <li>portfolio</li>
+        <li>contacts</li>
+        <li>technologies</li>
+    </ul>
+
+    <a href="google.com" onclick="return false;">Click</a>
+
+    <a href="google.com" onclick="console.log(event); return false;">Click2</a>
+
+    <a href="google.com" onclick="console.log(event); event.preventDefault();">Click3</a>
+
+    <a href="google.com" onclick="return handle();">Click4</a>
+
+    <button id="btn1" onclick="btnHandle()">click me</button>
+
+    <input type="text" onkeydown="return true" onmousemove="this.value = event.clientX + ' ' + event.clientY" />
+
+    <form id="form1" name="f1"></form>
+    <form id="form2" name="f2"></form>
+
+    <script>
+        // var interval = setInterval(function (name) {
+        //     alert('hi ' + name);
+        // }, 1000, 'vasya');
+        //
+        // console.log(interval);
+        //
+        // setTimeout(function () {
+        //     clearInterval(interval);
+        // }, 6000);
+
+        //iterate 10 times
+        // for (var i = 0; i < 10; i++) {
+        //     setTimeout(function () {
+        //         console.log(i);
+        //     }, 1000);
+        // }
+
+
+    </script>
+
+    <script>
+        // function handle() {
+        //     alert('hi');
+        //     return false;
+        // };
+    </script>
+
+    <script>
+        // function btnHandle() {
+        //     console.log(event.clientX + ' ' + event.clientY);
+        //     console.log(event.pageX + ' ' + event.pageY);
+        //     console.log(event.screenX + ' ' + event.screenY);
+        // }
+    </script>
+
+    <script>
+        function moveHandle() {
+            this.value = event.clientX + ' ' + event.clientY;
+        }
+    </script>
+
+
+</body>
+
+
