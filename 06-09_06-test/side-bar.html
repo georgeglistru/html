@@ -7,31 +7,37 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        .container {
-            width: 1280px;
-            margin: 0 auto;
-        }
 
-        body {
-            background-image: linear-gradient(toright, red 70%, green 100%);
+
+        #item {
+            position: relative;
         }
 
         .left {
-            width: 70%;
-            background: red;
+            position: relative;
+            background-color: yellow;
+            width: 80%;
+            border: 20px solid red;
+            margin: 8px auto;
+            padding: 30px;
+            box-sizing: border-box;
         }
 
-        .right {
-            width: 30%;
-            background: red;
+        .left:not(.active) {
+            background-color: red;
         }
+
+
     </style>
 </head>
 <body>
 
     <div class="left">
-        <span id="item"></span>
+        <span id="item">hi</span>
     </div>
+    <span class="my-class">
+
+    </span>
 
     <div class="right">
 
