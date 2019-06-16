@@ -1,0 +1,15 @@
+.block {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+}
+
+
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
