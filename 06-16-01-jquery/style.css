@@ -11,3 +11,10 @@
 .green {
     background-color: green;
 }
+
+.sqr {
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    position: relative;
+}

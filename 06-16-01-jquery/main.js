@@ -26,6 +26,9 @@ $(".block").unbind('click');
 console.log($("img.pretty").attr("src"));
 
 $("img.pretty").attr("src", "details1.png");
+
+// $(".sqr").fadeOut(3000);
+// $(".sqr").fadeIn(1000);
 // });
 
 // let jq = jQuery.noConflict();
